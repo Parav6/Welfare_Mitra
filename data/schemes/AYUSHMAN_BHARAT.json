@@ -1,0 +1,24 @@
+{
+  "scheme_id": "AYUSHMAN_BHARAT",
+  "name_en": "Ayushman Bharat (PM-JAY - Pradhan Mantri Jan Arogya Yojana)",
+  "name_hi": "आयुष्मान भारत (पीएम-जय)",
+  "name_ta": "ஆயுஷ்மான் பாரத் (பிஎம்-ஜேஏவொய்)",
+  "eligibility": {
+    "occupation": null,
+    "land_acres_max": null,
+    "income_limit": 250000,
+    "has_bpl_card": true,
+    "gender": null,
+    "has_girl_child_under_10": null,
+    "excluded": []
+  },
+  "benefit_en": "Free health insurance coverage up to ₹5,00,000 per family per year for secondary and tertiary hospitalisation.",
+  "benefit_hi": "माध्यमिक और तृतीयक अस्पताल में भर्ती के लिए प्रति वर्ष प्रति परिवार ₹5,00,000 तक का मुफ्त स्वास्थ्य बीमा कवरेज।",
+  "benefit_ta": "இரண்டாம் நிலை மற்றும் மூன்றாம் நிலை மருத்துவமனை சிகிச்சைகளுக்கு ஒரு குடும்பத்திற்கு ஆண்டுக்கு ₹5,00,000 வரை இலவச மருத்துவ காப்பீடு.",
+  "documents_en": ["Aadhaar Card", "Ration Card (BPL Card)", "Family Identification Document", "Active Mobile Number"],
+  "documents_hi": ["आधार कार्ड", "राशन कार्ड (बीपीएल कार्ड)", "परिवार पहचान दस्तावेज", "सक्रिय मोबाइल नंबर"],
+  "documents_ta": ["ஆதார் அட்டை", "குடும்ப அட்டை (பிபிஎல் அட்டை)", "குடும்ப அடையாள சான்று", "செயலில் உள்ள அலைபேசி எண்"],
+  "application_url": "https://pmjay.gov.in",
+  "source_url": "https://dashboard.pmjay.gov.in/pmjaydashboard/",
+  "helpline": "14555 / 1800-111-565"
+}

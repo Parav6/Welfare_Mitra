@@ -1,0 +1,24 @@
+{
+  "scheme_id": "PMAY_GRAMIN",
+  "name_en": "Pradhan Mantri Awas Yojana - Gramin",
+  "name_hi": "प्रधानमंत्री आवास योजना - ग्रामीण",
+  "name_ta": "பிரதான் மந்திரி ஆவாஸ் யோஜனா - கிராமின்",
+  "eligibility": {
+    "occupation": null,
+    "land_acres_max": null,
+    "income_limit": 150000,
+    "has_bpl_card": true,
+    "gender": null,
+    "has_girl_child_under_10": null,
+    "excluded": ["People owning motorized vehicles", "Government employees", "Those owning >50,000 credit limit Kisan Cards"]
+  },
+  "benefit_en": "Financial assistance of ₹1,20,000 in plains and ₹1,30,000 in hilly/difficult areas for constructing a permanent kutcha-free house.",
+  "benefit_hi": "पक्के घर के निर्माण के लिए मैदानी क्षेत्रों में ₹1,20,000 और पहाड़ी/कठिन क्षेत्रों में ₹1,30,000 की वित्तीय सहायता।",
+  "benefit_ta": "சமவெளிப் பகுதிகளில் ₹1,20,000 மற்றும் மலைப்பாங்கான பகுதிகளில் ₹1,30,000 நிதி உதவி வீடுகட்ட வழங்கப்படும்.",
+  "documents_en": ["Aadhaar Card", "MGNREGA Job Card Number", "Bank Account Passbook", "Swachh Bharat Mission Number", "BPL Certificate"],
+  "documents_hi": ["आधार कार्ड", "मनरेगा जॉब कार्ड नंबर", "बैंक खाता पासबुक", "स्वच्छ भारत मिशन नंबर", "बीपीएल प्रमाणपत्र"],
+  "documents_ta": ["ஆதார் அட்டை", "மகாத்மா காந்தி தேசிய ஊரக வேலை உறுதித் திட்ட வேலை அட்டை எண்", "வங்கி கணக்கு புத்தக நகல்", "தூய்மை இந்தியா திட்ட எண்", "வறுமைக் கோட்டிற்கு கீழ் உள்ளதற்கான சான்று"],
+  "application_url": "https://pmayg.nic.in",
+  "source_url": "https://myscheme.gov.in/schemes/pmayg",
+  "helpline": "1800-11-6446"
+}

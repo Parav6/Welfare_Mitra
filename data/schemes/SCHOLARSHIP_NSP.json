@@ -1,0 +1,24 @@
+{
+  "scheme_id": "SCHOLARSHIP_NSP",
+  "name_en": "National Scholarship Portal (NSP) - Post/Pre Matric Scholarship",
+  "name_hi": "राष्ट्रीय छात्रवृत्ति पोर्टल (एनएसपी) छात्रवृत्ति",
+  "name_ta": "தேசிய கல்வி உதவித்தொகை இணையம் (என்எஸ்பி) கல்வி உதவித்தொகை",
+  "eligibility": {
+    "occupation": "student",
+    "land_acres_max": null,
+    "income_limit": 250000,
+    "has_bpl_card": null,
+    "gender": null,
+    "has_girl_child_under_10": null,
+    "excluded": ["Students pursuing education through distance mode without regular classes", "Those already receiving other government scholarships"]
+  },
+  "benefit_en": "Financial assistance covering school/tuition fees and maintenance allowance from ₹1,000 to ₹20,000 per year directly to student accounts.",
+  "benefit_hi": "छात्रों के खातों में सीधे ₹1,000 से ₹20,000 प्रति वर्ष तक स्कूल/ट्यूशन फीस और रखरखाव भत्ते को कवर करने वाली वित्तीय सहायता।",
+  "benefit_ta": "கல்விக் கட்டணம் மற்றும் பராமரிப்புப் படியாக ஆண்டுக்கு ₹1,000 முதல் ₹20,000 வரை மாணவர்களின் வங்கிக் கணக்குகளுக்கு நேரடியாக உதவித்தொகை வழங்கப்படும்.",
+  "documents_en": ["Income Certificate", "Caste Certificate (for SC/ST/OBC)", "Previous Class Marksheet", "Aadhaar Card", "Bank Account Passbook of the student", "Fee receipt of the current academic year"],
+  "documents_hi": ["आय प्रमाणपत्र", "जाति प्रमाणपत्र (SC/ST/OBC के लिए)", "पिछली कक्षा की मार्कशीट", "आधार कार्ड", "छात्र की बैंक खाता पासबुक", "चालू शैक्षणिक वर्ष की शुल्क रसीद"],
+  "documents_ta": ["வருமானச் சான்றிதழ்", "சாதிச் சான்றிதழ் (SC/ST/OBC பிரிவினருக்கு)", "முந்தைய வகுப்பு மதிப்பெண் சான்றிதழ்", "ஆதார் அட்டை", "மாணவரின் வங்கி கணக்கு புத்தக நகல்", "தற்போதைய கல்வி ஆண்டின் கட்டண ரசீது"],
+  "application_url": "https://scholarships.gov.in",
+  "source_url": "https://myscheme.gov.in",
+  "helpline": "0120-6619540"
+}

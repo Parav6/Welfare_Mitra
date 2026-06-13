@@ -1,0 +1,24 @@
+{
+  "scheme_id": "MGNREGA",
+  "name_en": "Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA)",
+  "name_hi": "महात्मा गांधी राष्ट्रीय ग्रामीण रोजगार गारंटी अधिनियम (मनरेगा)",
+  "name_ta": "மகாத்மா காந்தி தேசிய ஊரக வேலை உறுதித் திட்டம் (மகாத்மா காந்தி என்ஆர்இஜிஏ)",
+  "eligibility": {
+    "occupation": ["farmer", "daily wage", "street vendor", "homemaker", "other"],
+    "land_acres_max": null,
+    "income_limit": 300000,
+    "has_bpl_card": null,
+    "gender": null,
+    "has_girl_child_under_10": null,
+    "excluded": ["Urban households (scheme is rural only)"]
+  },
+  "benefit_en": "Guaranteed 100 days of manual wage employment in a financial year to a rural household whose adult members volunteer for unskilled manual work.",
+  "benefit_hi": "एक वित्तीय वर्ष में एक ग्रामीण परिवार को न्यूनतम 100 दिनों का गारंटीकृत अकुशल शारीरिक रोजगार।",
+  "benefit_ta": "கிராமப்புற குடும்பங்களின் வயது வந்த உறுப்பினர்களுக்கு ஒரு நிதியாண்டில் 100 நாட்கள் உடல் உழைப்புடன் கூடிய வேலை வாய்ப்பு உறுதி செய்யப்படுகிறது.",
+  "documents_en": ["Aadhaar Card", "Bank Account Details", "Passport size photograph", "Age Proof (School certificate/Voter ID)"],
+  "documents_hi": ["आधार कार्ड", "बैंक खाता विवरण", "पासपोर्ट आकार की तस्वीर", "आयु प्रमाण (स्कूल प्रमाणपत्र/मतदाता पहचान पत्र)"],
+  "documents_ta": ["ஆதார் அட்டை", "வங்கி கணக்கு விவரங்கள்", "பாஸ்போர்ட் அளவு புகைப்படம்", "வயது சான்று (பள்ளி சான்றிதழ்/வாக்காளர் அட்டை)"],
+  "application_url": "https://nrega.nic.in",
+  "source_url": "https://myscheme.gov.in/schemes/mgnrega",
+  "helpline": "1800-11-1555"
+}

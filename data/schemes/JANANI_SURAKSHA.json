@@ -1,0 +1,24 @@
+{
+  "scheme_id": "JANANI_SURAKSHA",
+  "name_en": "Janani Suraksha Yojana (JSY)",
+  "name_hi": "जननी सुरक्षा योजना",
+  "name_ta": "ஜனனி சுரக்ஷா யோஜனா",
+  "eligibility": {
+    "occupation": null,
+    "land_acres_max": null,
+    "income_limit": 200000,
+    "has_bpl_card": true,
+    "gender": "female",
+    "has_girl_child_under_10": null,
+    "excluded": ["Deliveries at non-accredited private hospitals"]
+  },
+  "benefit_en": "One-time cash assistance of ₹1,400 to rural pregnant mothers and ₹1,000 to urban mothers in low-performing states for institutional deliveries.",
+  "benefit_hi": "संस्थागत प्रसव के लिए ग्रामीण गर्भवती माताओं को ₹1,400 और शहरी माताओं को ₹1,000 की एकमुश्त नकद सहायता।",
+  "benefit_ta": "மருத்துவமனைகளில் பிரசவம் மேற்கொள்வதற்கு கிராமப்புற கர்ப்பிணித் தாய்மார்களுக்கு ₹1,400 மற்றும் நகர்ப்புற தாய்மார்களுக்கு ₹1,000 ஒருமுறை நிதி உதவி.",
+  "documents_en": ["JSY Card / MCP (Mother and Child Protection) Card", "Aadhaar Card", "Ration Card (BPL)", "Bank Account Passbook showing IFSC code", "Institutional Delivery Proof (Discharge certificate)"],
+  "documents_hi": ["जेएसवाई कार्ड / एमसीपी (मातृ एवं शिशु संरक्षण) कार्ड", "आधार कार्ड", "राशन कार्ड (बीपीएल)", "IFSC कोड दिखाने वाली बैंक खाता पासबुक", "संस्थागत प्रसव प्रमाण (डिस्चार्ज प्रमाणपत्र)"],
+  "documents_ta": ["தாய் சேய் பாதுகாப்பு அட்டை (MCP கார்டு)", "ஆதார் அட்டை", "குடும்ப அட்டை (பிபிஎல்)", "வங்கி கணக்கு புத்தக நகல்", "பிரசவ சான்றிதழ்"],
+  "application_url": "https://nhm.gov.in/index1.php?lang=1&level=3&sublinkid=841&lid=309",
+  "source_url": "https://myscheme.gov.in/schemes/jsy",
+  "helpline": "104 (State Health Helpline) / 108"
+}

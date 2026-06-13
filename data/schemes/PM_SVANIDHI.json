@@ -1,0 +1,24 @@
+{
+  "scheme_id": "PM_SVANIDHI",
+  "name_en": "PM SVANidhi (Pradhan Mantri Street Vendor's AtmaNirbhar Nidhi)",
+  "name_hi": "पीएम स्वनिधि (प्रधानमंत्री स्ट्रीट वेंडर्स आत्मनिर्भर निधि)",
+  "name_ta": "பிஎம் ஸ்வாநிதி (பிரதான் மந்திரி வீதி வியாபாரிகள் ஆத்மநிர்பார் நிதி)",
+  "eligibility": {
+    "occupation": "street vendor",
+    "land_acres_max": null,
+    "income_limit": null,
+    "has_bpl_card": null,
+    "gender": null,
+    "has_girl_child_under_10": null,
+    "excluded": []
+  },
+  "benefit_en": "Collateral-free working capital loan of first tranche up to ₹10,000 (7% interest subsidy). Subsequent tranches of ₹20,000 and ₹50,000 upon timely repayment. Cashback on digital transactions.",
+  "benefit_hi": "₹10,000 तक का संपार्श्विक-मुक्त कार्यशील पूंजी ऋण (7% ब्याज सब्सिडी)। समय पर पुनर्भुगतान पर ₹20,000 और ₹50,000 की अगली किस्त। डिजिटल लेनदेन पर कैशबैक।",
+  "benefit_ta": "பிணை இல்லாத முதலீட்டுக் கடன் ₹10,000 வரை (7% வட்டி மானியம்). சரியான நேரத்தில் திருப்பிச் செலுத்தினால் ₹20,000 மற்றும் ₹50,000 கூடுதல் கடன்கள் வழங்கப்படும்.",
+  "documents_en": ["Aadhaar Card", "Voter ID Card", "Certificate of Vending (CoV) or Letter of Recommendation (LoR) from Urban Local Body (ULB)", "Bank Account Details linked with Aadhaar"],
+  "documents_hi": ["आधार कार्ड", "मतदाता पहचान पत्र", "शहरी स्थानीय निकाय (ULB) से वेंडिंग प्रमाणपत्र (CoV) या सिफारिश पत्र (LoR)", "आधार से जुड़ा बैंक खाता विवरण"],
+  "documents_ta": ["ஆதார் அட்டை", "வாக்காளர் அடையாள அட்டை", "நகர்ப்புற உள்ளாட்சி அமைப்பின் விற்பனை சான்றிதழ் அல்லது பரிந்துரை கடிதம் (LoR)", "ஆதாருடன் இணைக்கப்பட்ட வங்கி கணக்கு விவரங்கள்"],
+  "application_url": "https://pmsvanidhi.mohua.gov.in",
+  "source_url": "https://myscheme.gov.in/schemes/pmsvanidhi",
+  "helpline": "1800-11-1979"
+}

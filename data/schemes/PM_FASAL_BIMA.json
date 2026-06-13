@@ -1,0 +1,24 @@
+{
+  "scheme_id": "PM_FASAL_BIMA",
+  "name_en": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+  "name_hi": "प्रधानमंत्री फसल बीमा योजना",
+  "name_ta": "பிரதான் மந்திரி பயிர் காப்பீட்டுத் திட்டம் (பிஎம்எஃப்பிஒய்)",
+  "eligibility": {
+    "occupation": "farmer",
+    "land_acres_max": null,
+    "income_limit": null,
+    "has_bpl_card": null,
+    "gender": null,
+    "has_girl_child_under_10": null,
+    "excluded": ["Institutional landowners without insurable interest", "Tenant farmers without written tenancy agreement"]
+  },
+  "benefit_en": "Low-premium crop insurance covering crop loss from natural calamities, pests, and diseases. Maximum premium is 2% for Kharif, 1.5% for Rabi, and 5% for commercial/horticultural crops.",
+  "benefit_hi": "प्राकृतिक आपदाओं, कीटों और बीमारियों से फसल के नुकसान को कवर करने वाला कम प्रीमियम वाला फसल बीमा। खरीफ के लिए अधिकतम 2%, रबी के लिए 1.5% और वाणिज्यिक फसलों के लिए 5% प्रीमियम।",
+  "benefit_ta": "இயற்கை சீற்றங்கள், பூச்சிகள் மற்றும் நோய்களால் ஏற்படும் பயிர் இழப்பை ஈடுகட்டும் குறைந்த பிரீமியம் பயிர் காப்பீடு.",
+  "documents_en": ["Aadhaar Card", "Land Record Documents (Khasra/Khatauni)", "Sowing Certificate issued by Patwari/Revenue Officer", "Bank Passbook", "Rent/Tenancy agreement (if tenant farmer)"],
+  "documents_hi": ["आधार कार्ड", "भूमि दस्तावेज (खसरा/खतौनी)", "पटवारी/राजस्व अधिकारी द्वारा जारी बुआई प्रमाणपत्र", "बैंक पासबुक", "किराया/किरायेदारी समझौता (यदि किरायेदार किसान है)"],
+  "documents_ta": ["ஆதார் அட்டை", "நில ஆவணங்கள் (பட்டா/சிட்டா)", "விவசாய அலுவலர் வழங்கிய விதைப்பு சான்றிதழ்", "வங்கி கணக்கு புத்தக நகல்", "குத்தகை ஒப்பந்தப் பத்திரம் (குத்தகை விவசாயியாக இருந்தால்)"],
+  "application_url": "https://pmfby.gov.in",
+  "source_url": "https://myscheme.gov.in/schemes/pmfby",
+  "helpline": "1800-180-1551"
+}

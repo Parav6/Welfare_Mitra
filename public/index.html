@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welfare Mitra — Multilingual Chatbot for Welfare Schemes</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Montserrat:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- FontAwesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Vanilla CSS Link -->
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="dashboard-container">
+    
+    <!-- LEFT COLUMN: Mobile Mockup -->
+    <div class="phone-column">
+      <div class="column-header">
+        <h2><i class="fa-solid fa-mobile-screen-button"></i> Mobile Sandbox</h2>
+        <p>Interactive WhatsApp Simulation for rural users</p>
+      </div>
+      
+      <!-- Phone Mockup Frame -->
+      <div class="smartphone-frame">
+        <div class="phone-notch"></div>
+        <div class="phone-screen">
+          
+          <!-- WhatsApp Chat Header -->
+          <div class="chat-header">
+            <div class="chat-header-left">
+              <i class="fa-solid fa-arrow-left header-back"></i>
+              <div class="avatar">
+                <i class="fa-solid fa-hands-holding-child"></i>
+              </div>
+              <div class="contact-info">
+                <h3>Welfare Mitra</h3>
+                <span class="status-online" id="botStatus">Online</span>
+              </div>
+            </div>
+            <div class="chat-header-right">
+              <i class="fa-solid fa-video"></i>
+              <i class="fa-solid fa-phone"></i>
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+          </div>
+          
+          <!-- WhatsApp Message Body Container -->
+          <div class="chat-messages" id="chatMessages">
+            <!-- Messages populated by JS -->
+          </div>
+          
+          <!-- WhatsApp Bottom Input Bar -->
+          <div class="chat-input-bar">
+            <div class="input-container">
+              <i class="fa-regular fa-face-smile emoji-btn"></i>
+              <input type="text" id="userInput" placeholder="Type a message..." autocomplete="off">
+              <i class="fa-solid fa-paperclip attach-btn"></i>
+              <button class="camera-btn"><i class="fa-solid fa-camera"></i></button>
+            </div>
+            
+            <!-- Send / Record Button -->
+            <button class="send-btn" id="sendBtn">
+              <i class="fa-solid fa-microphone" id="sendBtnIcon"></i>
+            </button>
+          </div>
+          
+        </div>
+      </div>
+      
+      <!-- Audio Recording Simulator Overlay Control -->
+      <div class="audio-control-panel">
+        <button id="recordAudioBtn" class="action-btn record-audio-btn">
+          <i class="fa-solid fa-microphone-lines"></i> Simulate Voice Note
+        </button>
+        <span class="help-text">Clicks will simulate speaking in Hindi/Tamil</span>
+      </div>
+    </div>
+    
+    <!-- RIGHT COLUMN: Developer & Judge Panel -->
+    <div class="control-column">
+      <div class="column-header">
+        <h2><i class="fa-solid fa-circle-nodes"></i> Judge & Developer Dashboard</h2>
+        <p>Real-time telemetry, state managers, and presets</p>
+      </div>
+
+      <!-- Tab Buttons -->
+      <div class="dashboard-tabs">
+        <button class="tab-btn active" onclick="switchTab('tab-presets')">Presets & State</button>
+        <button class="tab-btn" onclick="switchTab('tab-schemes')">Scheme Catalog</button>
+        <button class="tab-btn" onclick="switchTab('tab-metrics')">System Metrics</button>
+      </div>
+
+      <!-- TAB 1: PRESETS AND STATE -->
+      <div id="tab-presets" class="tab-content active">
+        
+        <!-- Persona Quick Loaders -->
+        <div class="card">
+          <div class="card-header">
+            <h3><i class="fa-solid fa-users"></i> Persona Presets (1-Click Evaluation)</h3>
+          </div>
+          <div class="persona-grid">
+            
+            <div class="persona-card" onclick="loadPersona('ramesh')">
+              <div class="persona-avatar ramesh">R</div>
+              <div class="persona-details">
+                <h4>Ramesh Kumar</h4>
+                <p>Farmer • 3 Acres • BPL Card • Haryana</p>
+                <div class="tags">
+                  <span class="tag tag-hi">Hindi</span>
+                  <span class="tag tag-eligible">PM-KISAN, PMFBY</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="persona-card" onclick="loadPersona('meena')">
+              <div class="persona-avatar meena">M</div>
+              <div class="persona-details">
+                <h4>Meena Selvi</h4>
+                <p>Daily Wage • 0 Acres • BPL • Tamil Nadu</p>
+                <div class="tags">
+                  <span class="tag tag-ta">Tamil</span>
+                  <span class="tag tag-eligible">Ujjwala, SSY, JSY</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="persona-card" onclick="loadPersona('suresh')">
+              <div class="persona-avatar suresh">S</div>
+              <div class="persona-details">
+                <h4>Suresh Gupta</h4>
+                <p>Street Vendor • 0 Acres • No BPL • Delhi</p>
+                <div class="tags">
+                  <span class="tag tag-en">English</span>
+                  <span class="tag tag-eligible">PM SVANidhi</span>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+        <!-- Current Session State Tracker -->
+        <div class="card">
+          <div class="card-header">
+            <h3><i class="fa-solid fa-database"></i> Session State Machine</h3>
+            <button class="action-btn reset-btn" onclick="resetChat()"><i class="fa-solid fa-rotate-left"></i> Reset Session</button>
+          </div>
+          <div class="state-explorer">
+            <div class="state-row">
+              <span class="state-label">Session ID:</span>
+              <span class="state-value" id="statePhone">+91-99887-76655</span>
+            </div>
+            <div class="state-row">
+              <span class="state-label">Selected Language:</span>
+              <span class="state-value" id="stateLang"><span class="lang-dot hi"></span> Hindi</span>
+            </div>
+            <div class="state-row">
+              <span class="state-label">Flow Question Step:</span>
+              <span class="state-value" id="stateStep">0 / 6 (Language)</span>
+            </div>
+            <div class="state-row">
+              <span class="state-label">Eligible Shortlist:</span>
+              <span class="state-value" id="stateShortlist">-</span>
+            </div>
+            <div class="state-json-box">
+              <h4>Answers Accumulated:</h4>
+              <pre id="stateAnswersJSON">{}</pre>
+            </div>
+          </div>
+        </div>
+
+        <!-- Real-time Console Log -->
+        <div class="card log-card">
+          <div class="card-header">
+            <h3><i class="fa-solid fa-terminal"></i> RAG & Processing Logs</h3>
+            <span class="log-pulse"></span>
+          </div>
+          <div class="console-log" id="consoleLogs">
+            <div class="log-line log-info">System initialized. Awaiting user input...</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- TAB 2: SCHEME CATALOG -->
+      <div id="tab-schemes" class="tab-content">
+        <div class="card">
+          <div class="card-header">
+            <h3><i class="fa-solid fa-book-open"></i> Ground Truth Scheme Catalog (10 Schemes)</h3>
+            <div class="search-box">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" id="schemeSearch" placeholder="Search schemes..." oninput="filterSchemes()">
+            </div>
+          </div>
+          <div class="scheme-list" id="schemeList">
+            <!-- Populated via JS -->
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 3: SYSTEM METRICS -->
+      <div id="tab-metrics" class="tab-content">
+        
+        <!-- Metrics Panel -->
+        <div class="metrics-grid">
+          
+          <div class="metric-card">
+            <div class="metric-icon completion"><i class="fa-solid fa-circle-check"></i></div>
+            <div class="metric-info">
+              <span class="metric-val" id="metricCompletion">0%</span>
+              <span class="metric-label">Completion Rate</span>
+            </div>
+          </div>
+
+          <div class="metric-card">
+            <div class="metric-icon comprehension"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="metric-info">
+              <span class="metric-val" id="metricComprehension">82%</span>
+              <span class="metric-label">Comprehension Score</span>
+            </div>
+          </div>
+
+          <div class="metric-card">
+            <div class="metric-icon latency"><i class="fa-solid fa-gauge-high"></i></div>
+            <div class="metric-info">
+              <span class="metric-val" id="metricLatency">140ms</span>
+              <span class="metric-label">Median Latency (2G/3G)</span>
+            </div>
+          </div>
+          
+        </div>
+
+        <!-- Dropoff Stats -->
+        <div class="card">
+          <div class="card-header">
+            <h3><i class="fa-solid fa-chart-line"></i> Flow Drop-off Points Analysis</h3>
+          </div>
+          <div class="chart-container">
+            <div class="chart-bar-row">
+              <span class="chart-label">Step 0: Lang Selection</span>
+              <div class="chart-bar-wrapper">
+                <div class="chart-bar" id="bar-step0" style="width: 0%;"></div>
+              </div>
+              <span class="chart-val" id="val-step0">0 drops</span>
+            </div>
+            <div class="chart-bar-row">
+              <span class="chart-label">Step 1: Occupation</span>
+              <div class="chart-bar-wrapper">
+                <div class="chart-bar" id="bar-step1" style="width: 0%;"></div>
+              </div>
+              <span class="chart-val" id="val-step1">0 drops</span>
+            </div>
+            <div class="chart-bar-row">
+              <span class="chart-label">Step 2: Land Acres</span>
+              <div class="chart-bar-wrapper">
+                <div class="chart-bar" id="bar-step2" style="width: 0%;"></div>
+              </div>
+              <span class="chart-val" id="val-step2">0 drops</span>
+            </div>
+            <div class="chart-bar-row">
+              <span class="chart-label">Step 3: Annual Income</span>
+              <div class="chart-bar-wrapper">
+                <div class="chart-bar" id="bar-step3" style="width: 0%;"></div>
+              </div>
+              <span class="chart-val" id="val-step3">0 drops</span>
+            </div>
+            <div class="chart-bar-row">
+              <span class="chart-label">Step 4: BPL Status</span>
+              <div class="chart-bar-wrapper">
+                <div class="chart-bar" id="bar-step4" style="width: 0%;"></div>
+              </div>
+              <span class="chart-val" id="val-step4">0 drops</span>
+            </div>
+            <div class="chart-bar-row">
+              <span class="chart-label">Step 5: Household Gender</span>
+              <div class="chart-bar-wrapper">
+                <div class="chart-bar" id="bar-step5" style="width: 0%;"></div>
+              </div>
+              <span class="chart-val" id="val-step5">0 drops</span>
+            </div>
+            <div class="chart-bar-row">
+              <span class="chart-label">Step 6: Girl Child Status</span>
+              <div class="chart-bar-wrapper">
+                <div class="chart-bar" id="bar-step6" style="width: 0%;"></div>
+              </div>
+              <span class="chart-val" id="val-step6">0 drops</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Javascript Logic -->
+  <script src="app.js"></script>
+</body>
+</html>

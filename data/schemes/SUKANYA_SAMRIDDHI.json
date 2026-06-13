@@ -1,0 +1,24 @@
+{
+  "scheme_id": "SUKANYA_SAMRIDDHI",
+  "name_en": "Sukanya Samriddhi Yojana (SSY)",
+  "name_hi": "सुकन्या समृद्धि योजना",
+  "name_ta": "சுகன்யா சம்ரிதி யோஜனா (செல்வமகள் சேமிப்புத் திட்டம்)",
+  "eligibility": {
+    "occupation": null,
+    "land_acres_max": null,
+    "income_limit": null,
+    "has_bpl_card": null,
+    "gender": null,
+    "has_girl_child_under_10": true,
+    "excluded": ["More than two girl children per family (except in case of triplets/twins)"]
+  },
+  "benefit_en": "High-interest savings account (currently 8.2%) with tax exemptions for a girl child's education and marriage. Can be opened in any post office or bank.",
+  "benefit_hi": "बालिका की शिक्षा और विवाह के लिए कर छूट के साथ उच्च ब्याज बचत खाता (वर्तमान में 8.2%)। किसी भी डाकघर या बैंक में खोला जा सकता है।",
+  "benefit_ta": "பெண் குழந்தையின் கல்வி மற்றும் திருமணத்திற்காக வரி விலக்குடன் கூடிய அதிக வட்டி சேமிப்பு கணக்கு (தற்போது 8.2%). அஞ்சலகம் அல்லது வங்கிகளில் கணக்கு தொடங்கலாம்.",
+  "documents_en": ["Birth Certificate of the girl child", "Aadhaar Card of Parent/Guardian", "PAN Card of Parent/Guardian", "Address Proof (Ration Card/Electricity bill)", "Passport size photo of child and guardian"],
+  "documents_hi": ["बालिका का जन्म प्रमाण पत्र", "माता-पिता/अभिभावक का आधार कार्ड", "माता-पिता/अभिभावक का पैन कार्ड", "पते का प्रमाण (राशन कार्ड/बिजली बिल)", "बच्चे और अभिभावक की पासपोर्ट आकार की फोटो"],
+  "documents_ta": ["பெண் குழந்தையின் பிறப்புச் சான்றிதழ்", "பெற்றோர்/பாதுகாவலரின் ஆதார் அட்டை", "பெற்றோர்/பாதுகாவலரின் பான் கார்டு", "முகவரி சான்று (குடும்ப அட்டை/மின்சார கட்டண ரசீது)", "குழந்தை மற்றும் பாதுகாவலரின் பாஸ்போர்ட் அளவு புகைப்படம்"],
+  "application_url": "https://www.indiapost.gov.in",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssy",
+  "helpline": "1800-266-6868"
+}

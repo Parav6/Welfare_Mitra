@@ -1,0 +1,24 @@
+{
+  "scheme_id": "PM_UJJWALA",
+  "name_en": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+  "name_hi": "प्रधानमंत्री उज्ज्वला योजना",
+  "name_ta": "பிரதான் மந்திரி உஜ்வாலா யோஜனா",
+  "eligibility": {
+    "occupation": null,
+    "land_acres_max": null,
+    "income_limit": null,
+    "has_bpl_card": true,
+    "gender": "female",
+    "has_girl_child_under_10": null,
+    "excluded": ["Any other LPG connection in the same household"]
+  },
+  "benefit_en": "Deposit-free LPG connection, cash assistance of ₹1,600 per connection, first cylinder refill and stove free.",
+  "benefit_hi": "जमा-मुक्त एलपीजी कनेक्शन, ₹1,600 प्रति कनेक्शन की नकद सहायता, पहला सिलेंडर रिफिल और स्टोव मुफ्त।",
+  "benefit_ta": "வைப்புத்தொகை இல்லாத எல்பிஜி இணைப்பு, ஒரு இணைப்பிற்கு ₹1,600 ரொக்க உதவி, முதல் சிலிண்டர் ரீஃபில் மற்றும் அடுப்பு இலவசம்.",
+  "documents_en": ["Aadhaar of applicant", "Aadhaar of all adult family members", "Ration Card (BPL)", "Bank Account Passbook", "Address Proof"],
+  "documents_hi": ["आवेदक का आधार", "परिवार के सभी वयस्क सदस्यों का आधार", "राशन कार्ड (बीपीएल)", "बैंक खाता पासबुक", "पते का प्रमाण"],
+  "documents_ta": ["விண்ணப்பதாரரின் ஆதார் அட்டை", "குடும்பத்தின் அனைத்து பெரியவர்களின் ஆதார் அட்டை", "குடும்ப அட்டை (பிபிஎல்)", "வங்கி கணக்கு புத்தக நகல்", "முகவரி சான்று"],
+  "application_url": "https://www.pmuy.gov.in",
+  "source_url": "https://myscheme.gov.in/schemes/pmuy",
+  "helpline": "1800-266-6696 / 1906"
+}

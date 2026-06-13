@@ -1,0 +1,24 @@
+{
+  "scheme_id": "PM_KISAN",
+  "name_en": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+  "name_hi": "पीएम किसान सम्मान निधि",
+  "name_ta": "பிஎம்-கிசான் (பிரதான் மந்திரி கிசான் சம்மான் நிதி)",
+  "eligibility": {
+    "occupation": "farmer",
+    "land_acres_max": 5,
+    "income_limit": null,
+    "has_bpl_card": null,
+    "gender": null,
+    "has_girl_child_under_10": null,
+    "excluded": ["institutional landholders", "government employees", "income tax payers"]
+  },
+  "benefit_en": "₹6,000 per year in three equal installments of ₹2,000 directly to bank accounts.",
+  "benefit_hi": "बैंक खातों में सीधे ₹2,000 की तीन समान किस्तों में प्रति वर्ष ₹6,000।",
+  "benefit_ta": "வங்கிக் கணக்குகளுக்கு நேரடியாக ₹2,000 வீதம் மூன்று தவணைகளாக ஆண்டுக்கு ₹6,000 வழங்கப்படும்.",
+  "documents_en": ["Aadhaar Card", "Land Ownership Documents (Khasra/Khatauni)", "Bank Account Passbook", "Mobile Number linked with Aadhaar"],
+  "documents_hi": ["आधार कार्ड", "भूमि स्वामित्व दस्तावेज (खसरा/खतौनी)", "बैंक खाता पासबुक", "आधार से जुड़ा मोबाइल नंबर"],
+  "documents_ta": ["ஆதார் அட்டை", "நில உரிமை ஆவணங்கள் (பட்டா/சிட்டா)", "வங்கி கணக்கு புத்தக நகல்", "ஆதாருடன் இணைக்கப்பட்ட அலைபேசி எண்"],
+  "application_url": "https://pmkisan.gov.in",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmkisan",
+  "helpline": "155261 / 1800-115-526"
+}
